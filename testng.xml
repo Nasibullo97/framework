@@ -1,0 +1,8 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
+<suite name="ZipRecruiter Suite">
+    <test name="Home Page Tests">
+        <classes>
+            <class name="com.ziprecruiter.tests.HomePageTest"/>
+        </classes>
+    </test>
+</suite> 

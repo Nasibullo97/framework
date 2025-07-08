@@ -1,0 +1,7 @@
+com\ziprecruiter\tests\LoginPageTest.class
+com\ziprecruiter\tests\HomePageTest.class
+com\ziprecruiter\tests\SearchResultsPageTest.class
+com\ziprecruiter\pages\HomePage.class
+com\ziprecruiter\pages\LoginPage.class
+com\ziprecruiter\pages\SearchResultsPage.class
+com\ziprecruiter\base\BaseTest.class
