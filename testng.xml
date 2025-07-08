@@ -1,8 +1,19 @@
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd" >
 <suite name="ZipRecruiter Suite">
+    <parameter name="browser" value="chrome"/>
     <test name="Home Page Tests">
         <classes>
             <class name="com.ziprecruiter.tests.HomePageTest"/>
+        </classes>
+    </test>
+    <test name="Login Page Tests">
+        <classes>
+            <class name="com.ziprecruiter.tests.LoginPageTest"/>
+        </classes>
+    </test>
+    <test name="Search Results Page Tests">
+        <classes>
+            <class name="com.ziprecruiter.tests.SearchResultsPageTest"/>
         </classes>
     </test>
 </suite> 
