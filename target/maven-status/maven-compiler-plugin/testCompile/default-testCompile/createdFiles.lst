@@ -1,5 +1,6 @@
 com\ziprecruiter\tests\LoginPageTest.class
 com\ziprecruiter\tests\HomePageTest.class
+com\ziprecruiter\base\BaseTest$ScreenshotListener.class
 com\ziprecruiter\tests\SearchResultsPageTest.class
 com\ziprecruiter\pages\HomePage.class
 com\ziprecruiter\pages\LoginPage.class
