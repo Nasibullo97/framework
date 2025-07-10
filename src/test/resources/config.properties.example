@@ -1,0 +1,13 @@
+# Example configuration for ZipRecruiter Selenium TestNG Framework
+base.url=https://www.ziprecruiter.com
+login.url=https://www.ziprecruiter.com/login
+search.url=https://www.ziprecruiter.com
+implicit.wait=10
+explicit.wait=20
+page.load.timeout=30
+default.browser=chrome
+headless=false
+test.email=sample@example.com
+test.password=samplepassword
+screenshot.on.failure=true
+screenshot.directory=screenshots 

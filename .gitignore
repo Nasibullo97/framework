@@ -1,0 +1,13 @@
+# Java/Maven
+/target/
+*.iml
+.idea/
+*.class
+*.log
+
+# Sensitive config
+src/test/resources/config.properties
+
+# OS files
+.DS_Store
+Thumbs.db 

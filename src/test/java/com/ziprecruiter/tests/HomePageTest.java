@@ -8,9 +8,17 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 import java.time.Duration;
+import io.qameta.allure.Epic;
+import io.qameta.allure.Feature;
+import io.qameta.allure.Story;
+import io.qameta.allure.Description;
 
+@Epic("Home Page")
+@Feature("Landing Page")
 public class HomePageTest extends BaseTest {
     @Test
+    @Story("User visits home page")
+    @Description("Verify that the ZipRecruiter home page loads and displays the search box.")
     public void testHomePageLoads() {
         driver.get("https://www.ziprecruiter.com/");
         // Wait for a key element to be visible (e.g., the search box)
